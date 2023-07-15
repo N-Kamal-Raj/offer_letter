@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+p{
+    color: rgba(45, 43, 43, 0.722);
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+}
+
+span{
+    color: black;
+    font-weight: bold;
+}  
+
+
+.off_letter {
+    background-color: #fff;
+    padding: 30px 20px 0px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 5px;
+    width: 35vw;
+    height: 94vh;
+    gap: 20px;
+}
+
+.top {
+    width: 100%;
+    font-size: 14px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.top-1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-title {
+    color: rgb(100, 100, 221);
+}
+
+.top-1 .right img {
+    width: 120px;
+}
+
+
+.top-2 {
+    font-size: medium;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+
+}
+
+.top-2 h1 {
+    font-family: 'Roboto', sans-serif;
+    padding: 0 20px;
+    border-bottom: 1px solid rgb(100, 100, 221);
+    line-height: 1.6;
+    font-weight: bolder;
+    color: rgb(100, 100, 221);
+}
+
+.top-2 h2 {
+    padding: 0 20px;
+    border-bottom: 1px solid rgb(100, 100, 221);
+    line-height: 1.6;
+    font-weight: bold;
+    color: black;
+    font-size: 23px;
+}
+
+.top-2 hr {
+    position: absolute;
+    bottom: 0;
+    width: 30px;
+    height: 1px;
+    border-bottom: 2px solid rgb(100, 100, 221);
+    border-radius: 10%;
+}
+
+.bottom-section {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.bottom-section .left img {
+    width: 100px;
+}
+
+.bottom-section .right img {
+    width: 100px;
+
+}
+.author-text{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    color: rgb(100, 100, 221);
+    justify-content: center;
+    margin-bottom: 25px;
+    text-align: center;
+}
